@@ -1,0 +1,91 @@
+/* Ajuste para dispositivos com largura máxima de 768px (tablets e smartphones) */
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+        height: 40px; /* Ajusta a altura do logo */
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    main {
+        padding: 10px 20px;
+    }
+
+    .about-section, .reasons-section, .objectives-section, .contact-section {
+        margin-bottom: 20px;
+    }
+
+    .about-section h2, .reasons-section h2, .objectives-section h2, 
+    .contact-section h2 {
+        font-size: 22px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Ajuste para dispositivos com largura máxima de 480px (smartphones pequenos) */
+@media screen and (max-width: 480px) {
+
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        height: 35px; /* Ajusta ainda mais a altura do logo */
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .about-section h2, .reasons-section h2, .objectives-section h2, 
+    .contact-section h2 {
+        font-size: 20px;
+    }
+
+    input[type="email"], 
+    input[type="text"], 
+    textarea {
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 8px;
+    }
+
+    footer {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
